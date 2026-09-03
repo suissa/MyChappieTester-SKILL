@@ -1,6 +1,6 @@
 interface:
-  display_name: "Unlazy"
-  short_description: "Finish substantial work against runnable gates"
-  default_prompt: "Use $unlazy to complete this substantial task against explicit, verifiable gates."
+  display_name: "MyChappie Tester"
+  short_description: "Prove every ACTION with mandatory evidence-backed test suites"
+  default_prompt: "Use $mychappie-tester to implement or review this ACTION and do not report it complete until unit, integration, load, stress, benchmark, security, and Snyk gates are structurally complete and reverified."
 policy:
   allow_implicit_invocation: true
